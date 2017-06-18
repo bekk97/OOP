@@ -12,6 +12,5 @@ void QuadArr::InData(ifstream &in)
 		while (prov != '&')
 			in >> prov;
 	}
-
 }
 
