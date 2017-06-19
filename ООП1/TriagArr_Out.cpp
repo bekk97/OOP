@@ -10,8 +10,8 @@ void TriagArr::Out(ofstream &out) {
 			out << Array[i][j] << "\t";
 		out << "\n";
 	}
-	out << endl;
 	prov = NULL;
 	perepoln = false;
+	TriagArr::UnitTest_Out(out);
 }
 

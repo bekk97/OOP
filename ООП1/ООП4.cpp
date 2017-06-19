@@ -11,6 +11,7 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 	setlocale(LC_ALL, "Russian");
+
 	if (argc != 3)
 	{
 		cout << "Необходимо указать имя входного файла и имя выходного файла." << endl;
@@ -27,6 +28,7 @@ int main(int argc, char* argv[])
 	cout << "Считывание..." << endl;
 	c.In(in);
 	cout << "Запись..." << endl;
+
 	c.Out(out);
 
 	c.Clear();
