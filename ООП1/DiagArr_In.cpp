@@ -24,5 +24,7 @@ void DiagArr::InData(ifstream &in) {
 	{
 		Arr[i][i] = b[i];
 	}
+	DiagArr::UnitTest_In(in);
+
 }
 

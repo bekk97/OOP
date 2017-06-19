@@ -28,5 +28,7 @@ void TriagArr::InData(ifstream &in) {
 			m++;
 		}
 	}
+	TriagArr::UnitTest_In(in);
+
 }
 

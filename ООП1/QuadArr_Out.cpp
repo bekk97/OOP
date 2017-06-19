@@ -12,8 +12,8 @@ void QuadArr::Out(ofstream &out)
 			out << a[i][j] << "\t";
 		out << "\n";
 	}
-	out << endl;
 	prov = NULL;
 	perepoln = false;
+	QuadArr::UnitTest_Out(out);
 }
 

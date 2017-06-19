@@ -10,8 +10,9 @@ void DiagArr::Out(ofstream &out) {
 			out << Arr[i][j] << "\t";
 		out << "\n";
 	}
-	out << endl;
 	prov = NULL;
 	perepoln = false;
+	DiagArr::UnitTest_Out(out);
+
 }
 

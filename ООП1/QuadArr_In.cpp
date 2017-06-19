@@ -12,5 +12,6 @@ void QuadArr::InData(ifstream &in)
 		while (prov != '&')
 			in >> prov;
 	}
+	QuadArr::UnitTest_In(in);
 }
 
